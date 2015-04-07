@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>juptr.github.io</title>
 </head>
 <style>
 
@@ -40,31 +40,31 @@
         border-radius: 40px;
         background-color: #fbba00;
         border: 7px solid #FFFFFF;
-        -webkit-animation: ioOrbit 3s linear infinite;
-        -moz-animation: ioOrbit 3s linear infinite;
-        -o-animation: ioOrbit 3s linear infinite;
-        animation: ioOrbit 3s linear infinite;
+        -webkit-animation: ioOrbit 3s ease infinite;
+        -moz-animation: ioOrbit 3s ease infinite;
+        -o-animation: ioOrbit 3s ease infinite;
+        animation: ioOrbit 3s ease infinite;
     }
     .io div {
         padding-left: 10px;
         padding-top: 11px;
-        display: none;
+        /*display: none;*/
     }
     @-webkit-keyframes ioOrbit {
-        from { 	-webkit-transform: rotate(0deg) translateX(64px) rotate(0deg); }
-        to   {  -webkit-transform: rotate(360deg) translateX(64px) rotate(-360deg); }
+        from { 	-webkit-transform: rotate(0deg) translateX(46px) translateY(46px) rotate(0deg); }
+        to   {  -webkit-transform: rotate(360deg) translateX(46px) translateY(46px) rotate(-360deg); }
     }
     @-moz-keyframes ioOrbit {
-        from { 	-moz-transform: rotate(0deg) translateX(64px) rotate(0deg); }
-        to   {  -moz-transform: rotate(360deg) translateX(64px) rotate(-360deg); }
+        from { 	-moz-transform: rotate(0deg) translateX(46px) translateY(46px) rotate(0deg); }
+        to   {  -moz-transform: rotate(360deg) translateX(46px) translateY(46px) rotate(-360deg); }
     }
     @-o-keyframes ioOrbit {
-        from { 	-o-transform: rotate(0deg) translateX(64px) rotate(0deg); }
-        to   {  -o-transform: rotate(360deg) translateX(64px) rotate(-360deg); }
+        from { 	-o-transform: rotate(0deg) translateX(46px) translateY(46px) rotate(0deg); }
+        to   {  -o-transform: rotate(360deg) translateX(46px) translateY(46px) rotate(-360deg); }
     }
     @keyframes ioOrbit {
-        from { 	transform: rotate(0deg) translateX(64px) rotate(0deg); }
-        to   {  transform: rotate(360deg) translateX(64px) rotate(-360deg); }
+        from { 	transform: rotate(0deg) translateX(46px) translateY(46px) rotate(0deg); }
+        to   {  transform: rotate(360deg) translateX(46px) translateY(46px) rotate(-360deg); }
     }
     .europa {
         position: absolute;
@@ -74,26 +74,26 @@
         height: 20px;
         border-radius: 20px;
         background-color: #5fa4b0;
-        -webkit-animation: europaOrbit 3s linear infinite;
-        -moz-animation: europaOrbit 3s linear infinite;
-        -o-animation: europaOrbit 3s linear infinite;
-        animation: europaOrbit 3s linear infinite;
+        -webkit-animation: europaOrbit 3s ease infinite;
+        -moz-animation: europaOrbit 3s ease infinite;
+        -o-animation: europaOrbit 3s ease infinite;
+        animation: europaOrbit 3s ease infinite;
     }
     @-webkit-keyframes europaOrbit {
-        from { 	-webkit-transform: rotate(0deg) translateX(-66px) rotate(0deg); }
-        to   {  -webkit-transform: rotate(360deg) translateX(-66px) rotate(-360deg); }
+        from { 	-webkit-transform: rotate(0deg) translateX(-46px) translateY(-46px) rotate(0deg); }
+        to   {  -webkit-transform: rotate(360deg) translateX(-46px) translateY(-46px) rotate(-360deg); }
     }
     @-moz-keyframes europaOrbit {
-        from { 	-moz-transform: rotate(0deg) translateX(-66px) rotate(0deg); }
-        to   {  -moz-transform: rotate(360deg) translateX(-66px) rotate(-360deg); }
+        from { 	-moz-transform: rotate(0deg) translateX(-46px) translateY(-46px) rotate(0deg); }
+        to   {  -moz-transform: rotate(360deg) translateX(-46px) translateY(-46px) rotate(-360deg); }
     }
     @-o-keyframes europaOrbit {
-        from { 	-o-transform: rotate(0deg) translateX(-66px) rotate(0deg); }
-        to   {  -o-transform: rotate(360deg) translateX(-66px) rotate(-360deg); }
+        from { 	-o-transform: rotate(0deg) translateX(-46px) translateY(-46px) rotate(0deg); }
+        to   {  -o-transform: rotate(360deg) translateX(-46px) translateY(-46px) rotate(-360deg); }
     }
     @keyframes europaOrbit {
-        from { 	transform: rotate(0deg) translateX(-66px) rotate(0deg); }
-        to   {  transform: rotate(360deg) translateX(-66px) rotate(-360deg); }
+        from { 	transform: rotate(0deg) translateX(-46px) translateY(-46px) rotate(0deg); }
+        to   {  transform: rotate(360deg) translateX(-46px) translateY(-46px) rotate(-360deg); }
     }
 </style>
 <body>
@@ -103,6 +103,13 @@
     <div class="orbit">
         <div class="juptr"><div>J</div></div>
         <div class="io"><div>.io</div></div>
+        <div class="europa"></div>
+    </div>
+</div>
+<div class="wrap">
+    <div class="orbit" style="transform: scale(0.2);">
+        <div class="juptr"><div>J</div></div>
+        <div class="io"><div></div></div>
         <div class="europa"></div>
     </div>
 </div>
