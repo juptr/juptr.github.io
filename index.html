@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+
+    .orbit {
+        margin: 100px auto;
+        width: 130px;
+        height: 130px;
+        border: 3px solid #5fa4b0;
+        border-radius: 130px;
+        font-family: Arial;
+        font-weight: bold;
+        color: #FFF;
+        position: relative;
+    }
+    .juptr {
+        margin: 15px auto;
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        font-style: italic;
+        font-size: 70px;
+        background-color: #505456;
+        text-align: center;
+    }
+    .juptr div {
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .io {
+        position: absolute;
+        top: 38px;
+        left: 38px;
+        width: 40px;
+        height: 40px;
+        border-radius: 40px;
+        background-color: #fbba00;
+        border: 7px solid #FFFFFF;
+        -webkit-animation: ioOrbit 3s linear infinite;
+        -moz-animation: ioOrbit 3s linear infinite;
+        -o-animation: ioOrbit 3s linear infinite;
+        animation: ioOrbit 3s linear infinite;
+    }
+    .io div {
+        padding-left: 10px;
+        padding-top: 11px;
+        display: none;
+    }
+    @-webkit-keyframes ioOrbit {
+        from { 	-webkit-transform: rotate(0deg) translateX(64px) rotate(0deg); }
+        to   {  -webkit-transform: rotate(360deg) translateX(64px) rotate(-360deg); }
+    }
+    @-moz-keyframes ioOrbit {
+        from { 	-moz-transform: rotate(0deg) translateX(64px) rotate(0deg); }
+        to   {  -moz-transform: rotate(360deg) translateX(64px) rotate(-360deg); }
+    }
+    @-o-keyframes ioOrbit {
+        from { 	-o-transform: rotate(0deg) translateX(64px) rotate(0deg); }
+        to   {  -o-transform: rotate(360deg) translateX(64px) rotate(-360deg); }
+    }
+    @keyframes ioOrbit {
+        from { 	transform: rotate(0deg) translateX(64px) rotate(0deg); }
+        to   {  transform: rotate(360deg) translateX(64px) rotate(-360deg); }
+    }
+    .europa {
+        position: absolute;
+        top: 55px;
+        left: 55px;
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+        background-color: #5fa4b0;
+        -webkit-animation: europaOrbit 3s linear infinite;
+        -moz-animation: europaOrbit 3s linear infinite;
+        -o-animation: europaOrbit 3s linear infinite;
+        animation: europaOrbit 3s linear infinite;
+    }
+    @-webkit-keyframes europaOrbit {
+        from { 	-webkit-transform: rotate(0deg) translateX(-66px) rotate(0deg); }
+        to   {  -webkit-transform: rotate(360deg) translateX(-66px) rotate(-360deg); }
+    }
+    @-moz-keyframes europaOrbit {
+        from { 	-moz-transform: rotate(0deg) translateX(-66px) rotate(0deg); }
+        to   {  -moz-transform: rotate(360deg) translateX(-66px) rotate(-360deg); }
+    }
+    @-o-keyframes europaOrbit {
+        from { 	-o-transform: rotate(0deg) translateX(-66px) rotate(0deg); }
+        to   {  -o-transform: rotate(360deg) translateX(-66px) rotate(-360deg); }
+    }
+    @keyframes europaOrbit {
+        from { 	transform: rotate(0deg) translateX(-66px) rotate(0deg); }
+        to   {  transform: rotate(360deg) translateX(-66px) rotate(-360deg); }
+    }
+</style>
+<body>
+
+
+<div class="wrap">
+    <div class="orbit">
+        <div class="juptr"><div>J</div></div>
+        <div class="io"><div>.io</div></div>
+        <div class="europa"></div>
+    </div>
+</div>
+
+
+</body>
+</html>
